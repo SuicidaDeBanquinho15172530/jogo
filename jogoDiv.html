@@ -1,0 +1,41 @@
+<!DOCTYPEhtml >
+< html  lang =" pt-br " >
+< cabeça >
+    < title > Jogo Pong 02 </ title >
+    < meta  charset =' UTF-8 ' >
+    < link  rel =" folha de estilo " type =" text/css " href =" css/pong.css " >
+    < script  src =" js/pong.js " type =" text/javascript " charset =" utf-8 " defer > </ script >
+</ cabeça >
+< corpo >
+    < div  id =" pontuação " >
+        < h1 > Placar </ h1 >
+        < div  align =" center " >
+	    	< img  src =" img/SVT_Play.png " height =" 72 " width =" 50 " alt ="" onclick =" iniciar(document.getElementById('nivel').value) " >
+	    	< div  id =" controlPlacar " >
+	            < span > Nível atual: < span  id =" nivelText " > </ span > </ span >
+	            < select  id =" nível " alinhar =" centro " >
+	                < valor da opção  =" 0 " > Selecione o nível </ opção >
+	                < valor da opção  =" 1 " > Fácil </ opção >
+	                < valor da opção  =" 2 " > Normal </ opção >
+	                < valor da opção  =" 3 " > Dificuldade </ opção >
+	            </ selecione >
+	            < span  id =" pontuação " > Pontuação: </ span >
+	    	</ div >
+        </ div >
+    </ div >
+    < div  id =" linha2 " >
+        < div  classe =" setas " >
+        < div  id =" seta_esquerda " onclick =" stEsquerda() " > </ div >
+        </ div >
+        < div  id =" tela " >
+            < div  id =" bola " >
+            </ div >
+            < div  id =" barra " >
+            </ div >
+        </ div >
+        < div  classe =" setas " >
+        	< div  id =" seta_direita " onclick =" stDireita() " > </ div >
+        </ div >
+    </ div >
+</ corpo >
+</ html >
