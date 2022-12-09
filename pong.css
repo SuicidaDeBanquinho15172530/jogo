@@ -1,0 +1,79 @@
+# bola {
+	cor de fundo :   vermelho;
+	largura :  20 px ;
+	altura :  20px ; _
+	raio da borda :  10 px ;
+	posição : absoluto;
+}
+# barra {
+	cor de fundo :  # 000 ;
+	largura :  150 px ;
+	altura :  30px ; _
+	raio da borda :  4 px ;
+	posição : absoluto;
+	margem superior :  465 px ;
+}
+# tela {
+	cor de fundo :  # eee ;
+	largura :  800 px ;
+	altura :  500 px ;
+	flutuar : esquerda;
+	posição : relativa;
+	margem superior :  10 px ;
+	borda :  1 px sólido # ccc ;
+}
+# pontuação {
+	cor de fundo :  # eee ;
+	largura :  100 % ;
+	borda :  1 px sólido # ccc ;
+	flutuar : esquerda;
+	posição : relativa;
+}
+# pontuação  h1 {
+	/*altura: 10px;*/
+	preenchimento :  0 px ;
+	margem :  0 px ;
+	cor de fundo :  # 9D9D9D ;
+	alinhamento de texto : centro;
+}
+# pontuação  img {
+	exibição : bloco em linha;
+	alinhamento vertical : meio;
+}
+# controlePlacar {
+	exibição : bloco em linha;
+	alinhamento vertical : superior;
+	margem superior :  28 px ;
+}
+. setas {
+	posição : relativa;
+	flutuar : esquerda;
+	margem superior :  10 % ;
+}
+. setas  div {
+	margem :  10 px ;
+}
+# seta_esquerda {
+	largura :  0 ;
+	altura :  0 ;
+	borda superior :  100 px sólido transparente;
+	borda inferior :  100 px sólido transparente;
+
+	borda direita : sólido de 100 px # 58C627 ;
+}
+# seta_direita {
+	largura :  0 ;
+	altura :  0 ;
+	borda superior :  100 px sólido transparente;
+	borda inferior :  100 px sólido transparente;
+
+	borda esquerda :  sólido de 100 px # 58C627 ;
+}
+# linha2 {
+	claro : ambos;
+	posição : relativa;
+	/*flutua: esquerda;*/
+	largura :  90 % ;
+	margem : automática;
+	borda :  1 px preto sólido;
+}
